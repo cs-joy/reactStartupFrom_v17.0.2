@@ -17,6 +17,8 @@ import Reservation from "./components/Handling Multiple Inputs/Reservation";
 
 import Calculator from "./components/Learns/Calculator";
 import WelcomeDialog from './components/Learns/WelcomeDialog';
+import SignUpDialog from './components/Learns/MarsExploration';
+import ReactDesi from "./components/Learns/ReactDesi";
 
 function App(props) {
   const comment = {
@@ -35,6 +37,16 @@ function App(props) {
 
   const messages = ['React', 'Rea: React', 'Re:Re: React', 'Re:Re:Re: React', 'Hello'];
   const count = 0;
+
+    const PRODUCTS = [
+        {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+        {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+        {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+        {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+        {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+        {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+    ];
+
   return (
     <div className="App">
       <header className="App-header">
@@ -75,6 +87,10 @@ function App(props) {
 
         <Calculator />
         <WelcomeDialog />
+        <br />
+        <SignUpDialog />
+        <br />
+        <ReactDesi products={PRODUCTS} />
     </div>
   );
 }
