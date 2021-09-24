@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 import Welcome from './components/Welcome';
-import Comment from "./components/Comment";
-
+import Comment from './components/Comment';
+import Header from './components/Header/Header';
+import Clock from './components/NewC/Clock';
 
 function App() {
   const comment = {
@@ -34,10 +35,10 @@ function App() {
           text={comment.text}
           author={comment.author}
       />
-
+        <Header />
+        <Clock />
     </div>
   );
 }
-
 
 export default App;
