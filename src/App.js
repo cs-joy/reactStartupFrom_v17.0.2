@@ -16,6 +16,7 @@ import FlavorForm from "./components/Form/FlavorForm";
 import Reservation from "./components/Handling Multiple Inputs/Reservation";
 
 import Calculator from "./components/Learns/Calculator";
+import WelcomeDialog from './components/Learns/WelcomeDialog';
 
 function App(props) {
   const comment = {
@@ -73,6 +74,7 @@ function App(props) {
         <Reservation />
 
         <Calculator />
+        <WelcomeDialog />
     </div>
   );
 }
