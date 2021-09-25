@@ -18,7 +18,10 @@ import Reservation from "./components/Handling Multiple Inputs/Reservation";
 import Calculator from "./components/Learns/Calculator";
 import WelcomeDialog from './components/Learns/WelcomeDialog';
 import SignUpDialog from './components/Learns/MarsExploration';
-import ReactDesi from "./components/Learns/ReactDesi";
+import ReactDesi from './components/Learns/ReactDesi';
+import New from "./components/Learns/IntegrationwithOL";
+import ListOfTenThings from './components/Learns/FunctionAsChildren';
+
 
 function App(props) {
   const comment = {
@@ -91,6 +94,11 @@ function App(props) {
         <SignUpDialog />
         <br />
         <ReactDesi products={PRODUCTS} />
+        <hr />
+        <New />
+        <hr />
+        <ListOfTenThings />
+
     </div>
   );
 }
