@@ -34,6 +34,4 @@ class Clock extends React.Component {
     }
 }
 
-setInterval(Clock, 1000);
-
 export default Clock

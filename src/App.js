@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Welcome from './components/Welcome';
-import Comment from './components/Comment';
+import Welcome from './components/Learns/Welcome';
+import Comment from './components/Learns/Comment';
 import Header from './components/Header/Header';
 import Clock from './components/NewC/Clock';
 import Form from './components/Form/Form';
@@ -21,7 +21,7 @@ import SignUpDialog from './components/Learns/MarsExploration';
 import ReactDesi from './components/Learns/ReactDesi';
 import New from "./components/Learns/IntegrationwithOL";
 import ListOfTenThings from './components/Learns/FunctionAsChildren';
-
+import CounterButton from "./components/Buttons/CounterButton";
 
 function App(props) {
   const comment = {
@@ -98,7 +98,8 @@ function App(props) {
         <New />
         <hr />
         <ListOfTenThings />
-
+        <hr />
+        <CounterButton />
     </div>
   );
 }
