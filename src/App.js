@@ -23,6 +23,9 @@ import New from './components/Learns/IntegrationwithOL';
 import ListOfTenThings from './components/Learns/FunctionAsChildren';
 import CounterButton from './components/Buttons/CounterButton';
 import TypeSc from './components/TypeScript/FirstComp';
+import TypeScript from "./components/TypeScript/SecondComp";
+
+import NumberList from "./components/Learns/NumberList";
 
 function App(props) {
   const comment = {
@@ -42,7 +45,7 @@ function App(props) {
   const messages = ['React', 'Rea: React', 'Re:Re: React', 'Re:Re:Re: React', 'Hello'];
   const count = 0;
 
-    const PRODUCTS = [
+  const PRODUCTS = [
         {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
         {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
         {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
@@ -50,6 +53,8 @@ function App(props) {
         {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
         {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
     ];
+  const numbers = [1, 2, 3, 4, 5];
+
 
   return (
     <div className="App">
@@ -104,6 +109,10 @@ function App(props) {
         <hr />
         <TypeSc />
         <hr />
+        <hr />
+        <TypeScript />
+        <hr />
+        <NumberList numbers={numbers} />
     </div>
   );
 }
