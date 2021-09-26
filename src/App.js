@@ -26,6 +26,7 @@ import TypeSc from './components/TypeScript/FirstComp';
 import TypeScript from "./components/TypeScript/SecondComp";
 
 import NumberList from "./components/Learns/NumberList";
+import NewB from './components/Learns/NewB';
 
 function App(props) {
   const comment = {
@@ -93,7 +94,10 @@ function App(props) {
         <EssayForm />
         <FlavorForm />
         <Reservation />
+        <hr />
+        <Clock />
 
+        <hr />
         <Calculator />
         <WelcomeDialog />
         <br />
@@ -113,6 +117,9 @@ function App(props) {
         <TypeScript />
         <hr />
         <NumberList numbers={numbers} />
+        <hr />
+        <NewB />
+        <hr />
     </div>
   );
 }
