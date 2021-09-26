@@ -26,8 +26,13 @@ import TypeSc from './components/TypeScript/FirstComp';
 import TypeScript from "./components/TypeScript/SecondComp";
 
 import NumberList from "./components/Learns/NumberList";
+
+//----------ReactHook----------
 import NewB from './components/Learns/ReactHook/NewB';
 import EffectHook from './components/Learns/ReactHook/EffectHook';
+import Counter from './components/Learns/ReactHook/BasicHooks/useState';
+import MyResponsiveComponent from './components/Learns/ReactHook/RComp';
+
 
 function App(props) {
   const comment = {
@@ -124,7 +129,11 @@ function App(props) {
         <EffectHook />
         <br />
         <hr />
+        <Counter />
         <hr />
+        <MyResponsiveComponent />
+        <hr />
+
     </div>
   );
 }
