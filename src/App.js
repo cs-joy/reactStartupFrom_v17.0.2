@@ -26,7 +26,8 @@ import TypeSc from './components/TypeScript/FirstComp';
 import TypeScript from "./components/TypeScript/SecondComp";
 
 import NumberList from "./components/Learns/NumberList";
-import NewB from './components/Learns/NewB';
+import NewB from './components/Learns/ReactHook/NewB';
+import EffectHook from './components/Learns/ReactHook/EffectHook';
 
 function App(props) {
   const comment = {
@@ -119,6 +120,10 @@ function App(props) {
         <NumberList numbers={numbers} />
         <hr />
         <NewB />
+        <hr />
+        <EffectHook />
+        <br />
+        <hr />
         <hr />
     </div>
   );
