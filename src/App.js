@@ -19,9 +19,10 @@ import Calculator from "./components/Learns/Calculator";
 import WelcomeDialog from './components/Learns/WelcomeDialog';
 import SignUpDialog from './components/Learns/MarsExploration';
 import ReactDesi from './components/Learns/ReactDesi';
-import New from "./components/Learns/IntegrationwithOL";
+import New from './components/Learns/IntegrationwithOL';
 import ListOfTenThings from './components/Learns/FunctionAsChildren';
-import CounterButton from "./components/Buttons/CounterButton";
+import CounterButton from './components/Buttons/CounterButton';
+import TypeSc from './components/TypeScript/FirstComp';
 
 function App(props) {
   const comment = {
@@ -100,6 +101,9 @@ function App(props) {
         <ListOfTenThings />
         <hr />
         <CounterButton />
+        <hr />
+        <TypeSc />
+        <hr />
     </div>
   );
 }
