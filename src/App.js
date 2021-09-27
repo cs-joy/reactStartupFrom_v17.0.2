@@ -32,7 +32,8 @@ import NewB from './components/Learns/ReactHook/NewB';
 import EffectHook from './components/Learns/ReactHook/EffectHook';
 import Counter from './components/Learns/ReactHook/BasicHooks/useState';
 import MyResponsiveComponent from './components/Learns/ReactHook/RComp';
-
+import ScrollView from "./components/Learns/ReactHook/NewH";
+import Assigning from "./components/Learns/SeptemberTs";
 
 function App(props) {
   const comment = {
@@ -61,7 +62,7 @@ function App(props) {
         {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
     ];
   const numbers = [1, 2, 3, 4, 5];
-
+  const initialCount = 0;
 
   return (
     <div className="App">
@@ -129,11 +130,18 @@ function App(props) {
         <EffectHook />
         <br />
         <hr />
-        <Counter />
+        <Counter initialCount={initialCount} />
         <hr />
         <MyResponsiveComponent />
         <hr />
+        <ScrollView />
+        <hr />
+        <br />
+        <hr />
+        <Assigning />
+        <hr />
 
+        <hr />
     </div>
   );
 }
