@@ -34,6 +34,7 @@ import Counter from './components/Learns/ReactHook/BasicHooks/useState';
 import MyResponsiveComponent from './components/Learns/ReactHook/RComp';
 import ScrollView from "./components/Learns/ReactHook/NewH";
 import Assigning from "./components/Learns/SeptemberTs";
+import FunctionComp from './components/Learns/FunctionComp';
 
 function App(props) {
   const comment = {
@@ -140,7 +141,7 @@ function App(props) {
         <hr />
         <Assigning />
         <hr />
-
+        <FunctionComp />
         <hr />
     </div>
   );
