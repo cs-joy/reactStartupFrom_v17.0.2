@@ -27,10 +27,16 @@ import TypeScript from "./components/TypeScript/SecondComp";
 
 import NumberList from "./components/Learns/NumberList";
 
-//------Grid---------
+//------Simple Component---------
+import HelloMessage from './components/SimpleComponent/SimpleComponent';
 
+//------Stateful Component------
+import Timer from './components/StatefulComponent/StatefulComponent';
 
-//------Modules------
+//An Application Component
+import TodoApp from "./components/AnApplication/AnApplication";
+//External Plugins Component
+import MarkDownEditor from './components/ExternalPluginsComponent/ExternalPlugins';
 
 
 //----------ReactHook----------
@@ -149,6 +155,16 @@ function App(props) {
         <hr />
         <FunctionComp />
         <hr />
+        <hr />
+        <hr />
+        <HelloMessage name="Taylor" />
+        <hr />
+        <Timer />
+        <hr />
+        <TodoApp />
+        <hr />
+        <hr />
+        <MarkDownEditor />
         <hr />
     </div>
   );
