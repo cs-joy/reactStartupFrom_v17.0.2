@@ -27,6 +27,12 @@ import TypeScript from "./components/TypeScript/SecondComp";
 
 import NumberList from "./components/Learns/NumberList";
 
+//------Grid---------
+import GridColumnWidth from "./components/Grid/GridColumnWidth";
+
+//------Modules------
+import AccordionExampleStyled from './components/Modules/Accordion';
+
 //----------ReactHook----------
 import NewB from './components/Learns/ReactHook/NewB';
 import EffectHook from './components/Learns/ReactHook/EffectHook';
@@ -35,6 +41,16 @@ import MyResponsiveComponent from './components/Learns/ReactHook/RComp';
 import ScrollView from "./components/Learns/ReactHook/NewH";
 import Assigning from "./components/Learns/SeptemberTs";
 import FunctionComp from './components/Learns/FunctionComp';
+
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from 'react-router-dom';
+
+import HomeBadge from "./home";
 
 function App(props) {
   const comment = {
@@ -143,6 +159,9 @@ function App(props) {
         <hr />
         <FunctionComp />
         <hr />
+        <GridColumnWidth />
+        <hr />
+        <AccordionExampleStyled />
     </div>
   );
 }
