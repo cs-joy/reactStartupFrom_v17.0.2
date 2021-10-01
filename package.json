@@ -6,6 +6,7 @@
     "testEnvironment": "node"
   },
   "dependencies": {
+    "@artsy/fresnel": "^3.0.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -17,10 +18,14 @@
     "glob": "^7.2.0",
     "lodash": "^4.17.21",
     "nextjs": "0.0.3",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "react-spring": "^9.2.4",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.4",
     "typescript": "^4.4.3",
     "web-vitals": "^1.0.1"
   },
