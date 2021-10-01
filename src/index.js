@@ -4,11 +4,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import swDev from './swDev';
 import 'semantic-ui-css/semantic.min.css';
-import BasicExample from './example';
 
 ReactDOM.render(
     <React.StrictMode>
-        <BasicExample />
+        <App />
     </React.StrictMode>,
     document.getElementById('root')
 );
