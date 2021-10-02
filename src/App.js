@@ -36,7 +36,7 @@ import Timer from './components/StatefulComponent/StatefulComponent';
 //An Application Component
 import TodoApp from "./components/AnApplication/AnApplication";
 //External Plugins Component
-import MarkDownEditor from './components/ExternalPluginsComponent/ExternalPlugins';
+// import MarkDownEditor from './components/ExternalPluginsComponent/ExternalPlugins';
 
 
 //----------ReactHook----------
@@ -162,9 +162,6 @@ function App(props) {
         <Timer />
         <hr />
         <TodoApp />
-        <hr />
-        <hr />
-        <MarkDownEditor />
         <hr />
     </div>
   );
