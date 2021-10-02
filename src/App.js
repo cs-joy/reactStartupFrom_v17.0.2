@@ -47,6 +47,9 @@ import Assigning from "./components/Learns/SeptemberTs";
 import FunctionComp from './components/Learns/FunctionComp';
 import ExampleProgress from "./components/UsersProgress/userProgress";
 
+//TypeScript Components
+import LadType from './components/TypeScript/LadType';
+
 function App(props) {
   const comment = {
     date: new Date(),
@@ -162,8 +165,10 @@ function App(props) {
         <hr />
         <TodoApp />
         <hr />
+        <LadType />
         <hr />
         <ExampleProgress />
+
     </div>
   );
 }

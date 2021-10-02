@@ -11,6 +11,8 @@ import HomeBadge from "./home";
 // making sure things like the back button and bookmarks
 // work properly.
 
+//import TypeProgress from './components/TypeProgress/TypeProgress';
+
 export default function BasicExample() {
     return (
         <div>

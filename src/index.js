@@ -3,7 +3,7 @@ import './index.css';
 import ReactDOM from 'react-dom';
 import App from './App';
 import swDev from './swDev';
-import 'semantic-ui-css/semantic.min.css';
+import 'semantic-ui-react';
 
 ReactDOM.render(
     <React.StrictMode>
