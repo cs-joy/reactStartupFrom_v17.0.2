@@ -50,6 +50,9 @@ import ExampleProgress from "./components/UsersProgress/userProgress";
 //TypeScript Components
 import LadType from './components/TypeScript/LadType';
 
+import Percentage from './components/NewC/BallFoot';
+
+
 function App(props) {
   const comment = {
     date: new Date(),
@@ -93,6 +96,7 @@ function App(props) {
           Learn React
         </a>
       </header>
+      <ExampleProgress />
       <Welcome name="AJ" />
       <hr />
       <Comment
@@ -167,7 +171,8 @@ function App(props) {
         <hr />
         <LadType />
         <hr />
-        <ExampleProgress />
+        <Percentage />
+        <hr />
 
     </div>
   );

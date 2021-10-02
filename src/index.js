@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import swDev from './swDev';
 import 'semantic-ui-react';
+import 'jquery';
 
 ReactDOM.render(
     <React.StrictMode>
