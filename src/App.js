@@ -35,8 +35,6 @@ import Timer from './components/StatefulComponent/StatefulComponent';
 
 //An Application Component
 import TodoApp from "./components/AnApplication/AnApplication";
-//External Plugins Component
-// import MarkDownEditor from './components/ExternalPluginsComponent/ExternalPlugins';
 
 
 //----------ReactHook----------
@@ -47,6 +45,7 @@ import MyResponsiveComponent from './components/Learns/ReactHook/RComp';
 import ScrollView from "./components/Learns/ReactHook/NewH";
 import Assigning from "./components/Learns/SeptemberTs";
 import FunctionComp from './components/Learns/FunctionComp';
+import ExampleProgress from "./components/UsersProgress/userProgress";
 
 function App(props) {
   const comment = {
@@ -163,6 +162,8 @@ function App(props) {
         <hr />
         <TodoApp />
         <hr />
+        <hr />
+        <ExampleProgress />
     </div>
   );
 }
