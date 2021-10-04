@@ -51,7 +51,7 @@ import ExampleProgress from "./components/UsersProgress/userProgress";
 import LadType from './components/TypeScript/LadType';
 
 import Percentage from './components/NewC/BallFoot';
-
+import LoginControl from "./components/ConditionalRendering/LoginControl";
 
 function App(props) {
   const comment = {
@@ -173,7 +173,8 @@ function App(props) {
         <hr />
         <Percentage />
         <hr />
-
+        <hr />
+        <LoginControl />
     </div>
   );
 }
