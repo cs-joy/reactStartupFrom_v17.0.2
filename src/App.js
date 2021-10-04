@@ -52,6 +52,8 @@ import LadType from './components/TypeScript/LadType';
 
 import Percentage from './components/NewC/BallFoot';
 import LoginControl from "./components/ConditionalRendering/LoginControl";
+import Columns from "./components/ConditionalRendering/Neta";
+import SomeDiff from "./components/ConditionalRendering/CreateRef";
 
 function App(props) {
   const comment = {
@@ -175,6 +177,12 @@ function App(props) {
         <hr />
         <hr />
         <LoginControl />
+        <hr />
+        <Columns />
+        <hr />
+        <SomeDiff />
+        <hr />
+
     </div>
   );
 }
