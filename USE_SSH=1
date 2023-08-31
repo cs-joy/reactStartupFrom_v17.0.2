@@ -1,0 +1,41 @@
+
+> reactjs@0.1.0 predeploy /mnt/c/Users/Jahangir/WebstormProjects/reactjs
+> npm run build
+
+
+> reactjs@0.1.0 build /mnt/c/Users/Jahangir/WebstormProjects/reactjs
+> react-scripts build
+
+Creating an optimized production build...
+Compiled with warnings.
+
+src/swDev.js
+  Line 12:23:  Unnecessary escape character: \-  no-useless-escape
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  42.09 KB  build/static/js/2.561f0356.chunk.js
+  3.82 KB   build/static/js/main.f4a394e7.chunk.js
+  771 B     build/static/js/runtime-main.6607601e.js
+  645 B     build/static/css/main.13d436b4.chunk.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  yarn global add serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+
+> reactjs@0.1.0 deploy /mnt/c/Users/Jahangir/WebstormProjects/reactjs
+> gh-pages -d build
+
