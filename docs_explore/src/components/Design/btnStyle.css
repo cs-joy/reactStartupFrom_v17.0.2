@@ -1,0 +1,11 @@
+.btnStyle {
+    color:brown;
+    height: 50px;
+    width: 190px;
+    font-size: large;
+    border-radius: 7%;
+    background-color: rgb(0, 225, 255);
+    border-color: none;
+
+    align-items:first baseline;
+}

@@ -1,4 +1,4 @@
-import './componentsDesign/btnStyle.css';
+import './Design/btnStyle.css';
 
 function MyButton() {
     return (
